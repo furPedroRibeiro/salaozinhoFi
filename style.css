@@ -3,3 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+.header{
+    display: flex;
+    background-color: rgb(141, 243, 243);
+    color: azure;
+    height: 12vh;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#textLogo{
+    color: rgb(154, 210, 212);
+    font-size: 30px;
+    font-weight: bold;
+
+}
+#textLogoTwo{
+    color: cornflowerblue;
+    font-size: 30px;
+    font-weight: bold;
+}
+.contentHeader{
+    display: flex;
+    align-items: center;
+    color: cornflowerblue;
+    text-decoration: none;
+    font-size: 18px;
+}
